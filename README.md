@@ -3,7 +3,7 @@
 ## Steps :
 * Clone the Repo
 * Activate the virtual environment using:  source myvenv/bin/activate
-* install packages using:  pip install -r requirements.txt
+* install packages using:  pip install -r req.txt
 * run django server using:  python manage.py runserver
 * visit [http://127.0.0.1:8000/members/](http://127.0.0.1:8000/members/) to see the member data at the endpoint.
 
@@ -31,3 +31,6 @@ Also the id of the member must exist before i.e. it must be already added to dat
 You can see the newly added data at the endpoint
 
 ##
+### Link to heroku app: [https://full--throttle.herokuapp.com/members/](https://full--throttle.herokuapp.com/members/)
+
+json format: [https://full--throttle.herokuapp.com/members/?format=json](https://full--throttle.herokuapp.com/members/?format=json)
